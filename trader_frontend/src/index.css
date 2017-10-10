@@ -1,0 +1,168 @@
+#wrapper {
+  margin: 0, auto;
+  height: auto;
+}
+
+body {
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+  background-image: url("./images/background2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+  font-family: 'Playfair Display', serif;
+}
+
+label {
+  font-size: 25px;
+  font-family: 'Raleway', serif;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.container {
+ width: initial;
+}
+
+#dollar {
+  height: 300px
+}
+/*table*/
+#table{
+  padding-top: 20px;
+  color: #1e2730
+}
+
+.pagination>li>a, .pagination>li>span {
+  color: black;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+  background-color: rgb(241, 101, 110)
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+  border: none;
+}
+
+.pagination>li>a, .pagination>li>span{
+  border: none;
+}
+
+.table.table-bordered thead th {
+  font-size: 20px;
+  height: 70px;
+  border: 1px solid gray;
+  border-left: 1px solid gray;
+  color: #fcede3;
+  white-space: normal;
+}
+
+.table.table-bordered tbody td{
+  border: 1px solid gray;
+  color: #fcede3;
+  border-left: 1px solid gray;
+}
+
+th {
+  color:#D5DDE5;
+  background: rgb(241, 101, 110);
+  border-bottom:4px solid #49667b;
+  border-right: 1px solid #49667b;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+
+tr {
+  border: 1px solid black;
+  /*border-bottom-: 1px solid #49667b;*/
+  color: white;
+  font-size:16px;
+  font-weight: normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #49667b;
+  border-bottom: 1px solid #49667b;
+}
+
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+
+tr:nth-child(odd) td {
+  /*background:#EBEBEB;*/
+}
+
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+
+td {
+
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #49667b;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: left;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}

@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.line-color {
+  background: #FF9933;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #138808, #FFFFFF, #FF9933);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #138808, #FFFFFF, #FF9933); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.nav.navbar-nav{
+  color: #fff;
+}
+
+#user-bought-less {
+  color: red;
+  font-size: 20px;
+}
+
+#no-money{
+  color: red;
+  font-size: 18px;
+  padding-top: 7px;
+}
+
+.navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-nav>li>a:hover{
+   color: black
+}
+
+#username {
+  color: #fff;
+}
+
+#wallet {
+  color: rgb(241, 101, 110);
+}
+
+.loader {
+  padding-top: 1000px;
+}
+
+.game-settings{
+  padding-left: 50px
+}
+
+#user-info{
+  padding-top: 10px;
+}
+
+
+#chart-area {
+  height: 83vh;
+  padding: 50px;
+}
+
+canvas {
+  max-height: 500px;
+}
+
+
+.growth{
+  padding-left: 10px;
+}
+
+.game-field{
+  background-color: rgb(30, 39, 48);
+  border-radius: 5px;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 80px 80px 0 0;
+  position:absolute;
+  right: 16px;
+  bottom:0;
+  border-color: transparent #ef6670 transparent transparent;
+  }
+
+#last-action{
+  color: rgb(241, 101, 110);
+}
+
+#speed {
+  color: rgb(241, 101, 110);
+}
+
+.white-text-game-field{
+  color: white;
+}
+
+#stocks-to-buy{
+  width: 100px;
+}
+
+.form-text {
+  color: black;
+}
+
+/*Buttons*/
+
+.button-play{
+  margin-bottom: 10px;
+}
+
+.form-check.form-check-inline {
+  color: white;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+#selected-company {
+  color: white;
+}
+
+#actions{
+  margin-top: 50px;
+}
+
+/*FORMS*/
+form {
+    width: 550px;
+    min-height: 550px;
+    height: auto;
+    border-radius: 5px;
+    margin: 2% auto;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+    padding: 2%;
+}
+/* form Container */
+form .con {
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+      margin: 0 auto;
+}
+
+/* the header form form */
+header {
+    margin: 2% auto 20% auto;
+    text-align: center;
+}
+/* Login title form */
+header h2 {
+    font-size: 42px;
+    color: #3e403f;
+}
+/*  A welcome message or an explanation of the login form */
+header p {
+  letter-spacing: 0.05em;
+  font-size: 14px
+}
+
+/* inputs form  */
+input[class="form-input"]{
+    width: 240px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 2%;
+    padding: 15px;
+
+    font-size: 16px;
+    font-family: 'Abel', sans-serif;
+    color: #5E6472;
+
+    outline: none;
+    border: none;
+
+    border-radius: 5px 5px 5px 5px;
+    transition: 0.2s linear;
+
+}
+
+/* focus  */
+input:focus {
+    transform: translateX(-2px);
+    border-radius: 5px;
+}
+
+/* buttons  */
+.form-button {
+    display: inline-block;
+    color: #252537;
+    margin-left: 100px;
+    width: 240px;
+    height: 50px;
+
+    padding: 0 20px;
+    background: #fff;
+    border-radius: 5px;
+
+    outline: none;
+    border: none;
+
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.2s linear;
+
+    margin-top: 7%;
+    letter-spacing: 0.05em;
+}
+
+/* buttons hover */
+button:hover {
+    transform: translatey(3px);
+    box-shadow: none;
+}
+
+/* buttons hover Animation */
+button:hover {
+    animation: ani9 0.4s ease-in-out infinite alternate;
+}
+@keyframes ani9 {
+    0% {
+        transform: translateY(3px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
