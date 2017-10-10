@@ -1,4 +1,4 @@
-# trader_simulator
+# Trader
 
 Welcome to Trader!
 An app for someone who does not want to spend real money playing on real Stock Market, my application gives opportunity to try playing on Stock Market without real money investment. 
